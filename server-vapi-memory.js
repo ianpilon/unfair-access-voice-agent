@@ -202,7 +202,7 @@ async function handleAssistantRequest(req, res) {
   const pronunciationNote = "";
 
   let systemPrompt = basePrompt + pronunciationNote;
-  let firstMessage = "Hey, thanks for calling. This is a relaxed conversation about unfair access. Basically, where you already have an edge most founders would spend months, and a lot of credibility, to get. So let's start simple. What kind of work have you actually done? Not the job titles. The real systems and worlds you've been inside.";
+  let firstMessage = "Hey, thanks for calling. This is a relaxed conversation about unfair access. Basically, where you already have an edge most founders would spend months and a lot of credibility to earn. So let's start simple. What kind of work have you actually done? Not the job titles. The real systems and worlds you've been inside.";
 
   if (!customer) {
     console.log(`   🆕 NEW CALLER - no history`);
