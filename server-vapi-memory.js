@@ -202,7 +202,7 @@ async function handleAssistantRequest(req, res) {
   const pronunciationNote = "";
 
   let systemPrompt = basePrompt + pronunciationNote;
-  let firstMessage = "Hey, thanks for calling. This is a conversation about unfair access. By that I just mean the places where you already have something most would-be founders would spend months, and a lot of credibility, to get. Could be where you've worked, people who'd take your call and tell you the truth, a community you're genuinely inside, or knowledge that took you years to earn. Nothing's being sold here, and you steer where this goes. So let's start easy. What have you actually done for work? Not the titles. The real systems and worlds you've been inside.";
+  let firstMessage = "Hey, thanks for calling. This is a relaxed conversation about unfair access. Basically, where you already have an edge most founders would spend months, and a lot of credibility, to get. Nothing's being sold, and you steer where it goes. So let's start simple. What kind of work have you actually done? Not the job titles. The real systems and worlds you've been inside.";
 
   if (!customer) {
     console.log(`   🆕 NEW CALLER - no history`);
